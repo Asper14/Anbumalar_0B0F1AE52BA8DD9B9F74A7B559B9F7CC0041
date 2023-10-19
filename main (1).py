@@ -1,13 +1,10 @@
-# leap year
-def isleapyear(year):
-   if(year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
-     return True
+# factorial
+def fact_rec(n):
+   ifn==0orn==1:
+     return 1
    else:
-     return False
-
-year = int(input("Enter a year :"))
-
-if isleapyear(year):
-  print('{} is a leap year.'.format(year))
-else:
-  print('{} is not a leap year.'.format(year))
+     return n*fact_rec(n-1)
+number=int(input"Enter a value:')
+res=fact-rec(number)
+           
+print("the factorial of {}is {}"format(number,res))  
